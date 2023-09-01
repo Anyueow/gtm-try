@@ -1,0 +1,25 @@
+.navbar {
+    padding: 1rem 3rem;
+    transition: background-color 0.3s ease;
+
+    background-color: transparent;
+}
+
+.navbar .btn-primary {
+    background-color: #FF6B6B;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin-left: 1rem;
+}
+
+.navbar .btn-primary:hover {
+    background-color: #ff5050;
+}
+
+.logo{
+    width:10%
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the rgba values to your desired translucency */
+}
