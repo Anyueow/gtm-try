@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 120vh;
-    background: radial-gradient(circle at center, #FFB6C1, #FF69B4);
+    background: radial-gradient(circle at center, #c9e9fd, #caccf9, #FFCFCF);
     border-radius: 0 0 25% 25%;
     z-index: 1; /* Ensure the main content is above the pseudo-element */
 }
