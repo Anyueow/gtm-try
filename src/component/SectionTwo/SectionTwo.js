@@ -8,10 +8,10 @@ function SectionOne() {
         <div className="job-search-section">
             <Row className="justify-content-center">
                 <Col className="justify-content-center">
-                    <h2>Why Choose FindHer
-                    </h2>
-                    <h1>FindHer is your partner in career success.
-                        We help you find the job of your dreams.</h1>
+                    <h1 className='heading'>Why Choose FindHer
+                    </h1>
+                    <h2 className='sub-heading'>FindHer is your partner in career success.
+                        We help you find the job of your dreams.</h2>
 
                 </Col>
             </Row>

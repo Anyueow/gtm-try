@@ -9,19 +9,19 @@ import img4 from "./Untitled design-24.png";
 import img5 from "./screentop.png";
 function SectionThree() {
     return (
-        <Container className="my-5">
+        <Container className="my-5 container">
             {/* The Whole Picture */}
-            <Row className="mb-4 align-items-center">
-                <Col md={7} className="no-gutter">
+            <Row className="mb-4 align-items-center ">
+                <Col md={7} className="no-gutter left">
 
                     <div className="decorative-rectangle"></div>
                     <Image src={img1} className="overlay-image" alt="Decorative Image 1" />
                     <Image src={img2} className="overlay-image-two" alt="Decorative Image 1" />
 
                 </Col>
-                <Col md={5} className="no-gutter">
-                    <h3 className="head">The Whole Picture</h3>
-                    <p className="sub">Knowledge is power, and having access to the whole
+                <Col md={5} className="no-gutter right">
+                    <h3 className="heading">The Whole Picture</h3>
+                    <p className="sub-heading">Knowledge is power, and having access to the whole
                         picture empowers you to make informed career choices.
                         FindHer ensures that you're in control of your path,
                         whether you're just starting or advancing your career.
@@ -33,25 +33,21 @@ function SectionThree() {
 
             <Row className="mb-4 align-items-center"
             style={{marginTop:"8%"}}>
-                <Col md={5} className="no-gutter">
-                    <h3 className="head"
-                        style={{ marginLeft:"6%"}} >Exclusive Insights
+                <Col md={5} className="no-gutter left">
+                    <h3 className="heading" >Exclusive Insights
                     </h3>
-                    <p className="sub" style={{ marginLeft:"6%"}}
+                    <p className="sub-heading" 
                     >
                         We believe that you deserve more than just a
                         job title. Our platform offers a treasure trove
                         of insider insights, spanning workplace culture,
                         work-life balance, and the unspoken aspects that
                         truly matter.
-
-
-
                     </p>
-                    <Button style={{ marginLeft:"6%"}}
+                    <Button 
                             className="JoinButton">Join us now</Button>
                 </Col>
-                <Col md={7} className="no-gutter">
+                <Col md={7} className="no-gutter right">
 
                     <div className="decorative-rectangle-right"></div>
                     <Image src={img3} className="overlay-image-right" alt="Decorative Image 1" />
@@ -61,7 +57,7 @@ function SectionThree() {
 
             </Row>
             <Row className="mb-4 align-items-center" style={{marginTop:"8%"}}>
-            <Col md={7} className="no-gutter">
+            <Col md={7} className="no-gutter left">
 
                 <div className="decorative-rectangle"></div>
                 <Image src={img5} className="overlay-image-two"
@@ -69,19 +65,15 @@ function SectionThree() {
                        alt="Decorative Image 1" />
 
             </Col>
-            <Col md={5} className="no-gutter"
+            <Col md={5} className="no-gutter right"
             >
-                <h3 className="head">Personalized For You
+                <h3 className="heading">Personalized For You
                 </h3>
-                <p className="sub"
-                style={{width:"85%"}}>
+                <p className="sub-heading">
                     Your unique experiences and aspirations deserve recognition.
                     With FindHer, you're not just another applicant.
                     Our platform matches you with roles that align with YOUR
                     specific needs and ambitions.
-
-
-
                 </p>
                 <Button className="JoinButton">Join us now</Button>
             </Col>

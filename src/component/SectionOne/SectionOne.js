@@ -11,7 +11,7 @@ function SectionOne() {
         <div className="job-search-section">
             <Row className="justify-content-center">
                 <Col className="justify-content-center">
-                    <h2>How We Help You</h2>
+                    <h2 id='heading'>How We Help You</h2>
                     <h3>Redesigning Job Search for Indian Women</h3>
                     <p>It's common for job postings to lack detailed
                         information, leaving you in the dark about a potential employer's compatibility with your needs and aspirations. FindHer offers exclusive and reliable insights into different workplaces, allowing you to make informed decisions about your next career move.
